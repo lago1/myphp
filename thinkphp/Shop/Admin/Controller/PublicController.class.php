@@ -36,6 +36,6 @@ class PublicController extends Controller {
             'address' => '广东省广州市'
         );
         $this->assign('person',$person);
-        $this->display('test');
+        $this->display();
     }
 }
